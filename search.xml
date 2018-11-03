@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[markdown 基本操作]]></title>
+    <url>%2F2018%2F11%2F03%2Fmarkdown-%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%2F</url>
+    <content type="text"><![CDATA[内联HTML&emsp;&emsp;Markdown并非取代HTML，可以理解Markdown是一种把简单文本翻译成与匹配HTML插入的格式的代码的工具。其本身还是使用了HTML的语法，只是Markdown的格式化语法可以让我们用纯文字直接书写代码。&emsp;&emsp;对于一些HTML中Markdown没有包含的tag，可以直接使用HTML的语法代码，并且不需要任何提前声明。直接使用HTML的tag时，也分为两种： block-level HTML elements（块级HTML元素）— e.g. &lt;div&gt;,&lt;table&gt;,&lt;pre&gt;,&lt;p&gt;&emsp;&emsp;块级HTML元素，顾名思义，是一整块HTML的代码，所以Markdown语法不能被识别，只能使用HTML的语法。并且在开始和结束的tag中不能使用制表符或者空格缩进，整块代码的上下要通过空行独立出来，例： 123456789This is a regular paragraph.&lt;table&gt; &lt;tr&gt; &lt;td&gt;Foo&lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;This is another regular paragraph. Span-level HTML tags（跨度级HTML标签） — e.g. &lt;span&gt;, &lt;cite&gt;, or &lt;del&gt;&emsp;&emsp;跨度级HTML标签可以用在任何地方，并且可以直接用此类标签取代Markdown格式书写。例如直接用&lt;img&gt;取代Markdown的链接图片格式语法。 特殊字符的自动转义&emsp;&emsp;在HTML中有一些特殊字符有着语法上的意义，如果需要直接显示就需要转义，而Markdown是支持HTML语法的，所以我们可以直接使用HTML的转义字符方法。常用转义字符有：&emsp;&emsp;其中，换行字符有两种方法，方法1是连续两个以上空格+回车，方法2是使用html换行标签：&lt;br&gt;，首行缩进空格用&amp;ensp（半角空格）或者&amp;emsp（全角空格）&emsp;&emsp;但在Markdown中可以自由使用这些特殊字符，不需要转义就可以直接使用字符的原型本意，可以理解为Markdown自带了转义功能。]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[blog one]]></title>
+    <url>%2F2018%2F11%2F02%2Fblog-one%2F</url>
+    <content type="text"><![CDATA[这是我的一小步 也是全人类的一大步 23333]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F11%2F02%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick testwhat is this about yin yong ??? what is this about yin yong ??? what is this about yin yong ??? Bird Magic Here is an example of AppleScript: tell application &quot;Foo&quot; beep end tell This is a regular paragraph. what Foo This is another regular paragraph. shide zheyangbuhao heheda ha This is an example inline link. This link has no title attribute. There is a literal backtick (`) here. Create a new post 1$ hexo new "My New Post" 1234567#include "stdio"in main()&#123; print("123"); return 0;&#125; More info: Writing Run serverhh1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
